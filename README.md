@@ -38,3 +38,8 @@ nslookup. Po usunięciu rekordu nslookup zwrócił błąd.
 ### [05.10.2026] — DHCP
 Zainstalowałem rolę DHCP Server, autoryzowałem ją w AD i utworzyłem zakres
 192.168.50.100–150. Lista dzierżaw jest pusta, bo nie ma jeszcze klientów.
+
+### 06.10.2026: Firewall (ufw), teoria
+Poznałem zasady działania firewalla: jak porty, usługi i firewall współpracują ze sobą
+(terminal → usługa → firewall → sieć) oraz po co stosuje się politykę „deny incoming”
+z wyjątkami dla potrzebnych portów (SSH, DNS, panel Pi-hole).
